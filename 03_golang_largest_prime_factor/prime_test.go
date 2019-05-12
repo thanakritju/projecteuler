@@ -14,5 +14,6 @@ func TestPrimeFactor(t *testing.T) {
 
 func TestIsPrime(t *testing.T) {
 	assert.Assert(t, isPrime(29))
+	assert.Assert(t, !isPrime(25))
 	assert.Assert(t, isPrime(104729)) // 10000th prime
 }
